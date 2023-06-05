@@ -1,0 +1,21 @@
+Program for helping keep track of piano lessons
+
+For each lesson it should store a unique lesson key, the pupil, the date, the time and the fee
+	Stored in a series of dictionaries - the key is the lesson code, the value is 	the name/date/length/fee etc.
+
+	Each pupil should have a dictionary as well, with all their previous lesson keys stored in them.
+
+Info to store about each pupil - unique pupil key, name, normal lesson length, normal lesson fee, as well as a record of all previous lessons
+
+reply = input("Hello Ed. Would you like to report a new lesson? (y/n)").lower()
+if(reply == "y" or reply == "ye" or reply == "yes"):
+
+25/5 -> 2023-25-05
+
+RETURN MONTH OR YEAR:
+	may: (5, 2023)
+	may 2023: (5, 2023)
+	june 2022: (6, 2022)
+	2022: (0, 2022)
+	3/23: (3, 2023
+	3/2023: (2, 2023)
